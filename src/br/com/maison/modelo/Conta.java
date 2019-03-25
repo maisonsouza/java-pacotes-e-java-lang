@@ -1,12 +1,11 @@
 package br.com.maison.modelo;
 
-public abstract class Conta {
-
-    protected double saldo;
-    private int agencia;
-    private int numero;
-    private Cliente titular;
-    private static int total = 0;
+ public abstract class Conta {
+     protected double saldo;
+     private int agencia;
+     private int numero;
+     private Cliente titular;
+     private static int total = 0;
     
     public Conta(int agencia, int numero){
         Conta.total++;
