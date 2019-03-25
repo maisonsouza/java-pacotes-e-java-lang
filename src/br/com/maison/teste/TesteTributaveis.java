@@ -1,3 +1,8 @@
+package br.com.maison.teste;
+
+import br.com.maison.modelo.CalculadorDeImposto;
+import br.com.maison.modelo.ContaCorrente;
+import br.com.maison.modelo.SeguroDeVida;
 
 public class TesteTributaveis {
 

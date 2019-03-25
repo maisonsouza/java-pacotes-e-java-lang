@@ -1,3 +1,4 @@
+package br.com.maison.modelo;
 
 public class SaldoInsuficienteException extends Exception{
 	

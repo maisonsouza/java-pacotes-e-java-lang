@@ -1,3 +1,8 @@
+package br.com.maison.teste;
+
+import br.com.maison.modelo.Conta;
+import br.com.maison.modelo.ContaCorrente;
+import br.com.maison.modelo.SaldoInsuficienteException;
 
 public class TesteSaca {
 

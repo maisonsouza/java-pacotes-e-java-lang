@@ -1,6 +1,6 @@
+package br.com.maison.modelo;
 
-
-//new ContaCorrente()
+//new br.com.maison.modelo.ContaCorrente()
 public class ContaCorrente extends Conta implements Tributavel {
 
 	public ContaCorrente(int agencia, int numero) {
