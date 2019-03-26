@@ -1,5 +1,11 @@
 package br.com.maison.modelo;
 
+/**
+ * Classe que representa um Cliente no Bytebank
+ * @author Maison Galvão
+ * @version 0.1
+ */
+
 public class Cliente {
 
     private String nome;

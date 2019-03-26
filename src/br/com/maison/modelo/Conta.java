@@ -1,5 +1,9 @@
 package br.com.maison.modelo;
 
+/**
+ * Classe conta do Bytebank um modelo
+ */
+
 public abstract class Conta {
 
     protected double saldo;
@@ -7,6 +11,12 @@ public abstract class Conta {
     private int numero;
     private Cliente titular;
     private static int total = 0;
+
+    /**
+     * Construtor da classe Conta que recebe dois parametros agencia e numero
+     * @param agencia
+     * @param numero
+     */
     
     public Conta(int agencia, int numero){
         Conta.total++;
@@ -17,6 +27,10 @@ public abstract class Conta {
         //System.out.println("Estou criando uma conta " + this.numero);
     }
 
+    /**
+     * Método abastrato deposita que deve ser implementado nas classes que herdam de Conta
+      * @param valor
+     */
     public abstract void deposita(double valor);
 
     public void saca(double valor) throws SaldoInsuficienteException{
